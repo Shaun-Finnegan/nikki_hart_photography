@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
+    background: url('/media/100_2222.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
@@ -17,6 +17,16 @@ body {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
+}
+
+.logo-position{
+    display:flex;
+    margin-left: 40%;
+    margin-right:auto;
+}
+
+.title-text{
+    color:black;
 }
 
 .logo-font {
@@ -58,6 +68,41 @@ body {
 
 .bg-black {
     background: #000 !important;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
+}
+
+.account{
+    color: black;
+}
+
+.basket{
+    color: black;
+}
+
+.account-basket{
+    margin-right: 10%;
+}
+
+.photos-title{
+    background-color: red;
+}
+
+.photos-border{
+    background-color: green;
+    margin-top: 10%;
+}
+
+.card{
+    margin-top: 5%;
 }
 
 /* -------------------------------- Media Queries */
