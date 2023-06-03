@@ -25,6 +25,64 @@ body {
     margin-right:auto;
 }
 
+.navigation{
+    display: flex;
+    margin-left: 27%;
+    margin-right:auto;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+
+
+.about-me-text{
+   display: block;
+   width: 200px;
+   background: black;
+   color: white;
+   font-size: 30px;
+   text-align: center;
+   padding: 5px;
+   border: 1px solid black;
+   text-decoration: none;
+   list-style-type: none;
+}
+
+
+
+.photography-text{
+    display: block;
+    width: 200px;
+    background: black;
+   color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10%;
+    border: 1px solid black;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+
+.hire-me-text{
+    display: block;
+    width: 200px;
+    background: black;
+   color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20%;
+    border: 1px solid black;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
 .title-text{
     color:black;
 }
