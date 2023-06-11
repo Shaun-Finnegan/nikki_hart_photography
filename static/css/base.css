@@ -32,6 +32,20 @@ body {
    gap: 0.2rem;
 } 
 
+.product-wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'logo logo logo logo'
+    'navbar navbar navbar basket'
+    'product product product product'
+    'footer footer footer footer'
+    ;
+    
+ } 
+
 header{
     background-color: pink;
     text-align: center;
@@ -46,6 +60,7 @@ header{
 .account-basket-container{
     grid-area: basket;
     background: brown;
+    height: 20%;
 }
 
 
@@ -54,13 +69,13 @@ header{
 .navbar{
     background-color: green;
     grid-area: navbar;
+    margin-top: 0;
 }
 
 .navbar ul {
     display: flex;
     width: 100%;
     justify-content: center;
-    align-items: center;
     text-decoration: none;
 }
 
@@ -68,6 +83,7 @@ header{
     text-decoration: none;
     padding: 30px;
     margin-left: 20px;
+    font-size: 30px;
 }
 
 .navbar a {
@@ -86,7 +102,7 @@ header{
 .img-container{
     background-color: red;
     grid-area: img-container;
-    margin-top: 10px;
+    
 }
 
 .main-img{
@@ -96,6 +112,12 @@ header{
 .about-me-container{
     background-color: blue;
     grid-area: about-me-container;
+}
+
+.product-container{
+    background-color: purple;
+    grid-area: product;
+    height: 100%;
 }
 
 
@@ -172,9 +194,7 @@ header{
     color: black;
 }
 
-.account-basket{
-    margin-right: 10%;
-}
+
 
 .photos-title{
     background-color: red;
@@ -189,35 +209,25 @@ header{
     margin-top: 5%;
 }
 
-.footer{
-    background-color:  rgba(0, 0, 0, 1);
-    margin-top: auto;
-    width: 100vw;
+.footer {
+    background-color: brown;
     grid-area: footer;
 }
 
-.linkedin{
-    width: 25px;
-    height: 10px;
-    color: white;
+.footer ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-.facebook{
-    width: 25px;
-    height: 10px;
-    color: white;
-}
-
-.instagram{
-    width: 25px;
-    height: 10px;
-    color: white;
-}
-
-.twitter{
-    width: 25px;
-    height: 10px;
-    color: white;
+.footer li {
+    text-decoration: none;
+    padding: 30px;
+    list-style-type: none;
+    height: 50px;
+    width: 100px;
+    font-size: 100%;
 }
 
 /* -------------------------------- Media Queries */
@@ -232,6 +242,17 @@ header{
         'navbar'
         'img-container'
         'about-me-container'
+        'footer';
+    }
+
+    .product-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        'logo'
+        'basket'
+        'navbar'
+        'product'
         'footer';
     }
 }
