@@ -1,9 +1,14 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
 }
 
 body {
-    background: url('/media/100_2222.jpg') no-repeat center center fixed;
     color: #555;
     font-family: 'Lato';
     overflow-x: hidden;
@@ -12,95 +17,88 @@ body {
 
 }
 
-/* from Bulma */
-.icon {
-    align-items: center;
-    display: inline-flex;
-    justify-content: center;
-    height: 1.5rem;
-    width: 1.5rem;
+.main-container{
+   display: grid;
+   height: 100vh;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 0.8fr 0.8 1fr 1fr 0.8fr;
+   grid-template-areas: 
+   'logo logo logo logo'
+   'navbar navbar navbar basket'
+   'img-container img-container img-container img-container'
+   'about-me-container about-me-container about-me-container about-me-container'
+   'footer footer footer footer'
+   ;
+   gap: 0.2rem;
+} 
+
+header{
+    background-color: pink;
+    text-align: center;
+    grid-area: logo;
 }
 
 .logo-position{
-    display:flex;
-    margin-left: 40%;
-    margin-right:auto;
+    grid-area: logo;
+    background-color: yellow;
 }
 
-.navigation{
+.account-basket-container{
+    grid-area: basket;
+    background: brown;
+}
+
+
+
+
+.navbar{
+    background-color: green;
+    grid-area: navbar;
+}
+
+.navbar ul {
     display: flex;
-    margin-left: 27%;
-    margin-right:auto;
-    text-decoration: none;
-    list-style-type: none;
-   
-}
-
-
-.about-me-text{
-   display: block;
-   width: 200px;
-   background: black;
-   color: white;
-   font-size: 30px;
-   text-align: center;
-   padding: 5px;
-   border: 1px solid black;
-   text-decoration: none;
-   list-style-type: none;
-}
-
-
-
-.photography-text{
-    display: block;
-    width: 200px;
-    background: black;
-   color: white;
-    font-size: 30px;
-    text-align: center;
-    padding: 5px;
-    margin-left: 10%;
-    border: 1px solid black;
-    text-decoration: none;
-    list-style-type: none;
-    
-}
-
-
-
-.hire-me-text{
-    display: block;
-    width: 200px;
-    background: black;
-   color: white;
-    font-size: 30px;
-    text-align: center;
-    padding: 5px;
-    margin-left: 20%;
-    border: 1px solid black;
-    text-decoration: none;
-    list-style-type: none;
-    
-}
-
-
-.title-text{
-    color:black;
-}
-
-.logo-font {
-    text-transform: uppercase;
-}
-
-.main-logo-link {
-    width: fit-content;
-}
-
-.intro-container{
     width: 100%;
-    margin-top: 60%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
+
+.navbar li {
+    text-decoration: none;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar a:active {
+    color: red;
+}
+
+.img-container{
+    background-color: red;
+    grid-area: img-container;
+    margin-top: 10px;
+}
+
+.main-img{
+    width: 100vw;
+}
+
+.about-me-container{
+    background-color: blue;
+    grid-area: about-me-container;
+}
+
+
 
 .new-photos-are-here{
     background-color: rgba(0, 0, 0, 0.7);
@@ -195,6 +193,7 @@ body {
     background-color:  rgba(0, 0, 0, 1);
     margin-top: auto;
     width: 100vw;
+    grid-area: footer;
 }
 
 .linkedin{
@@ -223,24 +222,16 @@ body {
 
 /* -------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 80%;
-  }
-}
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
+@media only screen and (max-width: 550px){
+    .main-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        'logo'
+        'basket'
+        'navbar'
+        'img-container'
+        'about-me-container'
+        'footer';
     }
 }
