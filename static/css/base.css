@@ -52,18 +52,22 @@ header{
     background-color: pink;
     text-align: center;
     grid-area: logo;
+   
 }
 
 .logo-position{
     grid-area: logo;
     background-color: yellow;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.account-basket-container{
-    grid-area: basket;
-    background: brown;
-    height: 20%;
+.title-text{
+    min-width: 100px;
+    color: red;
 }
+
 
 
 
@@ -79,7 +83,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    
+    list-style-type: none;
     text-decoration: none;
 }
 
@@ -89,6 +93,25 @@ header{
     margin-left: 20px;
     font-size: 30px;
     
+}
+
+.account-basket-container{
+    grid-area: basket;
+    background: brown;
+    height: 20%;
+}
+
+.account-container{
+  background-color: gold;
+  min-width: 150px;
+  
+
+}
+
+.basket-container{
+  background-color: silver;
+  min-width: 150px;
+  
 }
 
 .about-me-nav{
@@ -277,4 +300,57 @@ header{
         'footer';
         overflow-x: hidden;
     }
+
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 10%;
+        
+        text-decoration: none;
+    }
+
+   
+    
+   
+
+    
+}
+
+@media only screen and (max-width: 300px){
+
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-left: 2%;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    .account-basket-container{
+        grid-area: basket;
+        background: brown;
+        height: 20%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+    .account-container{
+      background-color: gold;
+      min-width: 150px;
+      margin-left: 2%;
+    
+    }
+    
+    .basket-container{
+      background-color: silver;
+      min-width: 150px;
+      margin-left: 2%;
+    }
+
+}
+
+@media only screen and (min-width: 700px){
+ 
 }
