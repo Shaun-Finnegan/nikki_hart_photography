@@ -48,6 +48,23 @@ body {
     
  } 
 
+
+ .product-details-wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'logo logo logo logo'
+    'navbar navbar navbar basket'
+    'product-img product-img product-img product-img'
+    'product-details product-details product-details product-details'
+    'footer footer footer footer'
+    ;
+    overflow-x: hidden;
+    
+ } 
+
 header{
     background-color: pink;
     text-align: center;
@@ -165,15 +182,7 @@ header{
 
 
 
-.new-photos-are-here{
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    font-size: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 60%;
-    text-align: center;
-}
+
 
 .about-me-intro-text{
     font-size: 30px;
@@ -183,40 +192,6 @@ header{
     margin-left: 42%;
     margin-right: auto;
     width: 300px;
-}
-
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-    text-align: center;
-}
-
-.btn-black {
-    background: black;
-    color: white;
-}
-
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
-
-.text-black {
-    color: #000 !important;
-}
-
-.border-black {
-    border: 1px solid black !important;
-}
-
-.bg-black {
-    background: #000 !important;
 }
 
 .overlay {
@@ -250,6 +225,19 @@ header{
 
 .card{
     margin-top: 5%;
+}
+
+.product-image-container{
+    grid-area: product-img;
+}  
+.product-details-container{
+    grid-area: product-details;
+}
+
+.product-image{
+    width: 50%;
+    height: 50%;
+    justify-content: center;
 }
 
 .footer {
