@@ -6,12 +6,12 @@
 
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
     color: #555;
     font-family: 'Lato';
-    overflow-x: hidden;
     display: flex;
     flex-direction: column;
 
@@ -30,6 +30,7 @@ body {
    'footer footer footer footer'
    ;
    gap: 0.2rem;
+   overflow-x: hidden;
 } 
 
 .product-wrapper{
@@ -43,6 +44,7 @@ body {
     'product product product product'
     'footer footer footer footer'
     ;
+    overflow-x: hidden;
     
  } 
 
@@ -70,12 +72,14 @@ header{
     background-color: green;
     grid-area: navbar;
     margin-top: 0;
+    
 }
 
 .navbar ul {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    justify-content: center;
+    
     text-decoration: none;
 }
 
@@ -84,6 +88,22 @@ header{
     padding: 30px;
     margin-left: 20px;
     font-size: 30px;
+    
+}
+
+.about-me-nav{
+ background-color: limegreen;
+  min-width: 200px;
+}
+
+.photography-nav{
+ background-color: blue;
+ min-width: 200px;
+}
+
+.hire-me-nav{
+ background-color: yellow;
+ min-width: 200px;
 }
 
 .navbar a {
@@ -106,7 +126,7 @@ header{
 }
 
 .main-img{
-    width: 100vw;
+    width: 100%;
 }
 
 .about-me-container{
@@ -243,6 +263,7 @@ header{
         'img-container'
         'about-me-container'
         'footer';
+        overflow-x: hidden;
     }
 
     .product-wrapper{
@@ -254,5 +275,6 @@ header{
         'navbar'
         'product'
         'footer';
+        overflow-x: hidden;
     }
 }
