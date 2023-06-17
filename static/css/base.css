@@ -271,16 +271,8 @@ header{
   text-align: center;
 }
 
-.add-to-cart-container{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5%;
-    
-}
-
-.add-to-cart-button{
-    background-color: black;
-    color: white;
+.form{
+    grid-area: form;
 }
 
 
