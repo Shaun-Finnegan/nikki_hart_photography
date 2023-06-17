@@ -85,6 +85,7 @@ header{
 .title-text{
     min-width: 100px;
     color: red;
+    font-size: 120%;
 }
 
 
@@ -107,29 +108,36 @@ header{
 }
 
 .navbar li {
-    text-decoration: none;
-    padding: 30px;
-    margin-left: 20px;
-    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 120%;
+    padding: 5%;
     
 }
 
 .account-basket-container{
     grid-area: basket;
     background: brown;
-    height: 20%;
+    
+}
+
+.account-basket-container li{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .account-container{
   background-color: gold;
-  min-width: 150px;
+  min-width: 200px;
+  padding: 0;
   
 
 }
 
 .basket-container{
   background-color: silver;
-  min-width: 150px;
+  min-width: 200px;
+  padding: 0;
   
 }
 
@@ -277,18 +285,40 @@ header{
 .footer ul {
     display: flex;
     flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: center;
     text-decoration: none;
     list-style-type: none;
+    text-align: center;
 }
 
 .footer li {
     text-decoration: none;
-    padding: 30px;
     list-style-type: none;
-    height: 50px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    font-size: 200%;
     min-width: 100px;
     font-size: 100%;
+}
+
+.copyright{
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 70%;
+    color: white;
+    text-align: center;
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5%;
 }
 
 /* -------------------------------- Media Queries */
@@ -344,26 +374,7 @@ header{
         
         text-decoration: none;
     }
-
-    .footer ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        text-decoration: none;
-        list-style-type: none;
-    }
     
-    .footer li {
-        text-decoration: none;
-        padding: 10px;
-        list-style-type: none;
-        height: 50px;
-        min-width: 100px;
-        font-size: 100%;
-    }
-    
-   
-
     
 }
 
