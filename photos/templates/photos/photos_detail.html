@@ -109,36 +109,33 @@
 
 
 
-{% block content %}
-                <div class="product-container">
-                    {% if photos.image %}
-                        <a href="{{ photos.image.url }}" target="_blank">
-                            <img class="product-image" src="{{ photos.image.url }}" alt="{{ photos.name }}">
-                        </a>
-                        {% else %}
-                        <a href="{{ photos.image.url }}">
-                            <img src="{{ MEDIA_URL }}noimage.png" alt="{{ photos.name }}">
-                        </a>
-                    {% endif %}
-                </div>
-            </div>
-            
-                <div class="product-details-container">
-                    <p>{{ photos.name }}</p>
-                    <p >${{ photos.price }}</p>
-                    {% if photos.rating %}
-                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ photos.rating }} / 5</small>
-                    {% else %}
-                        <small class="text-muted">No Rating</small>
-                    {% endif %}
-                    <p>{{ photos.description }}</p>
-                </div>
-        
-        </div>
+    {% block content %}
+    <div class="product-image-container">
+      {% if photos.image %}
+      <a href="{{ photos.image.url }}" target="_blank">
+        <img class="product-individual-image" src="{{ photos.image.url }}" alt="{{ photos.name }}">
+      </a>
+      {% else %}
+      <a href="{{ photos.image.url }}">
+        <img src="{{ MEDIA_URL }}noimage.png" alt="{{ photos.name }}">
+      </a>
+      {% endif %}
     </div>
-{% endblock %}
+  
 
-<footer class="footer">
+  <div class="product-details-container">
+    <p class="photo-name">{{ photos.name }}</p>
+    <p class="photo-price">${{ photos.price }}</p>
+    {% if photos.rating %}
+    <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ photos.rating }} / 5</small>
+    {% else %}
+    <small class="text-muted">No Rating</small>
+    {% endif %}
+    <p class="photo-description">{{ photos.description }}</p>
+  </div>
+  {% endblock %}
+
+  <footer class="footer">
     <ul>
       <li>
         <a href="https://gb.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a>
@@ -158,9 +155,6 @@
 
   {% block postloadjs %}
   {% endblock %}
-
-
-  </div>
 </body>
 
 </html
