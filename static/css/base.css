@@ -80,16 +80,24 @@ header{
     min-width: 100%;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .title-text{
-    min-width: 100px;
     color: black;
-    font-size: 120%;
+    font-size: 200%;
+    
 }
 
+.logo-position a{
+    color: black;
+    text-decoration: none;
+    list-style-type:none;
+}
 
-
+.logo-position a:hover{
+    text-decoration: underline;
+}
 
 
 .navbar{
@@ -113,6 +121,7 @@ header{
     font-size: 120%;
     color: white;
     padding: 5%;
+    border: 1px solid white;
     
 }
 
@@ -161,22 +170,22 @@ header{
     text-decoration: underline;
 }
 
-.navbar a:active {
-    color: red;
-}
+
 
 .img-container{
     background-color: red;
     grid-area: img-container;
-    
-    
 }
 
 .main-img{
     width: 100%;
-    height: 100%;
+    height: 400px;
     object-fit: cover;
+    object-position: top;
 }
+
+
+
 
 .about-me-container{
     background-color: black;
@@ -190,7 +199,17 @@ header{
 }
 
 
+h2{
+    text-align: center;
+    color: white;
+}
 
+p{
+    text-align:center;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+}
 
 
 .about-me-intro-text{
