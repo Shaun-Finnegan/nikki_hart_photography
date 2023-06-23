@@ -80,8 +80,8 @@
                 </div>
               </li>
               <li class="list-inline-item basket-container">
-                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                  href="">
+                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
+                  
                   <div class="text-center">
                     <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                     <p class=" basket my-0">
@@ -104,7 +104,7 @@
         <ul>
           <li class="about-me-nav"><a class="about-me-text" href="{% url 'home' %}">About Me</a></li>
           <li class="photography-nav"><a class="photography-text" href="{% url 'photos' %}">Photography</a></li>
-          <li class="hire-me-nav"><a class="hire-me-text" href="{% url 'photos' %}">Hire Me</a></li>
+         
         </ul>
       </nav>
     </header>

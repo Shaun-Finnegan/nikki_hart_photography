@@ -104,13 +104,14 @@
         <ul>
           <li class="about-me-nav"><a class="about-me-text" href="{% url 'home' %}">About Me</a></li>
           <li class="photography-nav"><a class="photography-text" href="{% url 'photos' %}">Photography</a></li>
-          <li class="hire-me-nav"><a class="hire-me-text" href="{% url 'photos' %}">Hire Me</a></li>
+          
         </ul>
       </nav>
     </header>
 
 {% block content %}
         <div class="overlay"></div>
+        <div class="container">
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="allauth-form-inner-content">
@@ -120,6 +121,8 @@
             </div>
         </div>
     </div>
+
+  </div>
 {% endblock %}
 
 <footer class="footer">

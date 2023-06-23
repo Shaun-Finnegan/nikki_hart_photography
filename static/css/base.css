@@ -68,7 +68,7 @@ body {
  } 
 
 header{
-    background-color: pink;
+    background-color: white;
     text-align: center;
     grid-area: logo;
    
@@ -76,7 +76,7 @@ header{
 
 .logo-position{
     grid-area: logo;
-    background-color: yellow;
+    background-color: white;
     min-width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -84,7 +84,7 @@ header{
 
 .title-text{
     min-width: 100px;
-    color: red;
+    color: black;
     font-size: 120%;
 }
 
@@ -93,7 +93,7 @@ header{
 
 
 .navbar{
-    background-color: green;
+    background-color: black;
     grid-area: navbar;
     margin-top: 0;
     
@@ -111,13 +111,14 @@ header{
     margin-left: auto;
     margin-right: auto;
     font-size: 120%;
+    color: white;
     padding: 5%;
     
 }
 
 .account-basket-container{
     grid-area: basket;
-    background: brown;
+    background: white;
     
 }
 
@@ -127,7 +128,7 @@ header{
 }
 
 .account-container{
-  background-color: gold;
+  background-color: white;
   min-width: 200px;
   padding: 0;
   
@@ -135,24 +136,19 @@ header{
 }
 
 .basket-container{
-  background-color: silver;
+  background-color: white;
   min-width: 200px;
   padding: 0;
   
 }
 
 .about-me-nav{
- background-color: limegreen;
+ background-color: black;
   min-width: 200px;
 }
 
 .photography-nav{
- background-color: blue;
- min-width: 200px;
-}
-
-.hire-me-nav{
- background-color: yellow;
+ background-color: black;
  min-width: 200px;
 }
 
@@ -183,12 +179,12 @@ header{
 }
 
 .about-me-container{
-    background-color: blue;
+    background-color: black;
     grid-area: about-me-container;
 }
 
 .product-container{
-    background-color: purple;
+    background-color: white;
     grid-area: product;
     height: 100%;
 }
@@ -232,7 +228,7 @@ header{
 }
 
 .photos-border{
-    background-color: green;
+    background-color: white;
     margin-top: 10%;
 }
 
@@ -241,7 +237,7 @@ header{
 }
 
 .product-image-container{
-    background-color: pink;
+    background-color: white;;
     grid-area: product-img;
 }  
 
@@ -283,7 +279,7 @@ header{
 }
 
 .footer {
-    background-color: brown;
+    background-color: black;
     grid-area: footer;
 }
 
@@ -525,21 +521,21 @@ a.category-badge > span.badge:hover {
 
     .account-basket-container{
         grid-area: basket;
-        background: brown;
+        background: white;
         height: 20%;
         display:flex;
         flex-wrap: wrap;
     }
     
     .account-container{
-      background-color: gold;
+      background-color: white;
       min-width: 150px;
       margin-left: 2%;
     
     }
     
     .basket-container{
-      background-color: silver;
+      background-color: white;
       min-width: 150px;
       margin-left: 2%;
     }
