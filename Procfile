@@ -1,0 +1,1 @@
+web: gunicorn nikki_hart_photography.wsgi:application
