@@ -188,8 +188,9 @@ header{
 
 
 .about-me-container{
-    background-color: black;
+    background-color: white;
     grid-area: about-me-container;
+    border: 2px solid black;
 }
 
 .product-container{
@@ -201,15 +202,18 @@ header{
 
 h2{
     text-align: center;
-    color: white;
+    color: black;
 }
 
 p{
     text-align:center;
     margin-left: 5%;
     margin-right: 5%;
-    color: white;
+    color: black;
+   
 }
+
+
 
 
 .about-me-intro-text{
@@ -247,7 +251,7 @@ p{
 }
 
 .photos-border{
-    background-color: white;
+    background-color:white;
     margin-top: 10%;
 }
 
@@ -256,7 +260,7 @@ p{
 }
 
 .product-image-container{
-    background-color: white;;
+    background-color: white;
     grid-area: product-img;
 }  
 
@@ -272,7 +276,9 @@ p{
 .product-details-container{
     grid-area: product-details;
     width: 100%;
+    background-color: white;
 }
+
 
 .photo-name{
   text-align: center;
@@ -323,6 +329,10 @@ p{
     font-size: 200%;
     min-width: 100px;
     font-size: 100%;
+}
+
+.footer li a:hover{
+    font-size: 210%;
 }
 
 .copyright{
