@@ -1,1 +1,1 @@
-web: gunicorn nikki-hart-photography.wsgi:application
+web: gunicorn nikki_hart_photography.wsgi:application
