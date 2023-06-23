@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-)#ir#km4vu4+8h(&oq36fp5^f5_&ca))rvv3u#kfwo9ztzpxav
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['shaunfinnegan-nikki-hart-photography.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['nikki-hart-photography-5b89f5a6c233.herokuapp.com'. You may need to add 'nikki-hart-photography-5b89f5a6c233.herokuapp.com', 'localhost']
 
 
 # Application definition
