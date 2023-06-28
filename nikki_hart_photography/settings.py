@@ -14,6 +14,13 @@ from pathlib import Path
 import os
 import dj_database_url
 
+
+
+# this statement will make sure that if an env.py file exist, which is the case for your local
+# project, it will import the variables from the env.py and make the available
+if os.path.isfile('env.py'):
+    import env
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -27,7 +34,7 @@ SECRET_KEY = 'django-insecure-)#ir#km4vu4+8h(&oq36fp5^f5_&ca))rvv3u#kfwo9ztzpxav
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-shaunfinneg-nikkihartph-9tm58irb827.ws-eu100.gitpod.io', 'nikki-hart-photography-5b89f5a6c233.herokuapp.com']
+ALLOWED_HOSTS = ['8000-shaunfinneg-nikkihartph-9tm58irb827.ws-eu101.gitpod.io', 'nikki-hart-photography-5b89f5a6c233.herokuapp.com']
 
 
 # Application definition
