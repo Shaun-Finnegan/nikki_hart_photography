@@ -9,6 +9,23 @@ This is a portfolio website created with HTML CSS Javascript and Django. The sit
 Furthermore the site allows the user to register an account or if an existing user login to their account.
 The user will need to do this if they wish to purchase any of Nikki's work.
 
+## Contents
+* [Project Goals](#project-goals)
+* [User Experience](#user-experience)
+* [User Stories](#user-stories)
+* [wireframes](#wireframes)
+* [Color Scheme](#color-scheme)
+* [Structure](#structure)
+* [Features](#feature)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing)
+* [One To Many](#one-to-many-relational-database)
+* [Wishlist](#wishlist)
+* [Deployment](#deployment)
+* [Credits](#credits)
+
+
+
 ## Project Goals
 ### Site Owner Goals
 * To allow the user to easily navigate ouround the website
