@@ -63,34 +63,34 @@ The user will need to do this if they wish to purchase any of Nikki's work.
 ## Wireframes
 
 ### Hoime Page
-* ![Home Page Mobile](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/home-mb-wireframe.png)
+* [Home Page Mobile](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/home-mb-wireframe.png)
 
-* ![Home Page Tablet](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/home-tab-wireframe.png)
+* [Home Page Tablet](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/home-tab-wireframe.png)
 
-* ![Home Page Laptop](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/home-lg-wireframe.png)
+* [Home Page Laptop](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/home-lg-wireframe.png)
 
 
 ### Photos/Products Page
 
-* ![Product Page Mobile](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/photos-mb-wireframe.png)
+* [Product Page Mobile](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/photos-mb-wireframe.png)
 
-* ![Product Page Tablet](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/photos-tab-wireframe.png)
+* [Product Page Tablet](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/photos-tab-wireframe.png)
 
-* ![Product Page Laptop](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/photos-lg-wireframe.png)
+* [Product Page Laptop](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/photos-lg-wireframe.png)
 
 ### Basket/Bag Page
 
-* ![Basket Mobile](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/Backet-mb-wireframe.png)
+* [Basket Mobile](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/Backet-mb-wireframe.png)
 
-* ![Basket Tablet](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/basket-tab-wireframe.png)
+* [Basket Tablet](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/basket-tab-wireframe.png)
 
-* ![Basket Laptop ](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/basket-lg-wireframe.png)
+* [Basket Laptop ](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/basket-lg-wireframe.png)
 
 
 ### All Authentication and secure Checkout Pages
 
-* ![Forms Pages Mobile](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/forms-mb-wireframe.png)
+* [Forms Pages Mobile](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/forms-mb-wireframe.png)
 
-* ![Forms Pages Tablet](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/forms-tab-wireframe.png)
+* [Forms Pages Tablet](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/forms-tab-wireframe.png)
 
-* ![Forms Pages Laptop](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/forms-lg-wireframe.png)
+* [Forms Pages Laptop](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/forms-lg-wireframe.png)
