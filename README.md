@@ -147,3 +147,91 @@ Once the user has added a product to their bag they will be able to see a summar
 The shopping bag gives the user full C.R.U.D functionality as they will be able to see what they have added. They will also be able to adjust the quantity or remove the item from the basket completley.
 
 ![The Shopping Bag](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-shopping-bag.png)
+
+
+### Secure Checkout
+This feature will allow the user to check out their items in their bag.
+The user must register or login to be able to make a payment and then their payment details will be saved so that when the user logs into the site in the future making a purchase will be easier as their information will have been saved.
+
+![The Shopping Bag](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-secure-checkout.png)
+
+### Checkout and order confirmation
+Once the user has made their purchase they will be presented with this screen confirming their purchase.
+
+![Checkout and order confirmation](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-payment-confirmation.png)
+
+
+## Technologies Used
+### Languages and Frameworks
+
+* HTML
+* CSS
+* JavaScript
+* Python
+* Bootstrap
+* Django
+
+
+### Additional Tools Used
+
+* Elephant SQL
+* GitPod
+* GitHub
+* FontAwesome
+* Chrome Developer Tools
+* W3C HTML Validator
+* W3C CSS Validator
+* CI Python Linter
+* JustInMind Prototyping Tool
+
+
+## Testing
+
+### Cross Platform Testing
+
+Once the site was completed and deployed it was tested on four web browsers to check that the application behaved and performed the same way on each one. The browsers used where
+
+* Google Chrome
+* Mozilla FireFox
+* Microsoft Edge
+* Safari
+
+Overall I was pleased to see that the sites performancer and behaviour was consistent througfhout all four browsers.
+
+
+## Compatability Testing
+Once deployed the site was tested on numerous devices to ensure that performance and behaviour were consistent. The devices used are as follows:
+
+* Asus VivoBook Laptop
+* Ipad Air 3
+* Samsung Galaxy s8
+* Oppo a72
+* Various templates with Chrome Dev Tools
+
+## Responsive Testing
+As well as the application been tested on all the devices mentioned above, the application was also tested using the responsive screen view in chrome dev tools. This additional testing really helped to pick out any responsiveness issues that had previously been overlooked. However the application was very responsive and behaved the way the developer intended on all screen sizes.
+
+
+## Validator Testing
+### HTML
+
+#### Home Page
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/homepage-html-validator.png)
+
+#### Products Page
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/products-html-validator.png)
+
+#### Products Description Page
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/products-html-validator.png)
+
+#### Shopping Bag
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/bag-html-validator.png)
+
+#### Checkout
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/checkout-html-validator.png)
+
+#### Checkout Success Page
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/checkout-success-html-validator.png)
+
+#### AllAuth Base template
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/allauth-base-html-validator.png)
