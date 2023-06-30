@@ -32,7 +32,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)#ir#km4vu4+8h(&oq36fp5^f5_&ca))rvv3u#kfwo9ztzpxav'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-shaunfinneg-nikkihartph-9tm58irb827.ws-eu101.gitpod.io', 'nikki-hart-photography-5b89f5a6c233.herokuapp.com']
 
