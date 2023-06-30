@@ -6,7 +6,7 @@
 
 <head>
   {% block meta %}
-  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   {% endblock %}
@@ -138,7 +138,7 @@
                         {% for item in bag_items %}
                             <tr>
                                 <td class="p-3 w-25">
-                                    <img class="img-fluid rounded" src="{{ item.photo.image.url }}">
+                                    <img class="img-fluid rounded" src="{{ item.photo.image.url }}" alt="purchased image">
                                 </td>
                                 <td class="py-3">
                                     <p class="my-0"><strong>{{ item.photo.name }}</strong></p>
@@ -248,10 +248,9 @@
     <div class ="copyright">
       Copyright Nikki Hart 2023
       nikkisphotos@test.co.uk
-    </div>
   </div>
   </footer>
-  </div>
+  
 
 
 
@@ -281,4 +280,4 @@
   </script>
   {% endblock %}
 </body>
-</html
+</html>
