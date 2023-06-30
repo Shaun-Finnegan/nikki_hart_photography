@@ -138,7 +138,7 @@ WSGI_APPLICATION = 'nikki_hart_photography.wsgi.application'
  # }
      
 DATABASES = {
-    'default': dj_database_url.parse('postgres://dpfuvxoc:lgR_bq5S-qddXrMgSRAgPPXqAwIE0aK8@lucky.db.elephantsql.com/dpfuvxoc')
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
  }
 
 
