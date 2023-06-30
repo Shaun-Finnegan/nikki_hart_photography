@@ -307,3 +307,40 @@ So this diagram shows that any customer within the customer model can have multi
 * To add further products and offer customers more enticing deals
 * To incorperate a print on demand service that would allow customers to add a photo to clothing or home accessories
 * To add a calander function that would allow customers to hire Nikki for work such as gigs or weddings
+
+
+## Deployment
+This applicaction was delpoyed using Heroku and was achieve by following the instruction provided by Code Institute.
+
+So to deploy using Heroku you must;
+
+* Log in to Heroku or create a new account
+* Pick your unique app name and slect your nearest region
+* Click the 'create app' button
+* Once created navigated to the settings page and localte 'config vars'
+* Then find the add button and set the values for "IP", "PORT", "SECRET_KEY" and "DEBUG"
+* Naviagate to the 'Deploy' tab
+* In the Deployment method section, select “Connect to GitHub”
+* Search for your repo and click Connect
+* To add your tables to the database you have To do this, we can click the “More” button and select “Run console
+* Type python3 into the console and click Run
+* Once in the terminal type from nikki-hart-photography import db followed by db.create_all()
+* Then click the "open app" button
+
+
+## Credits
+### Code Institute
+A massive thank you to Code Institute for their instruction on the use of Flask, PostgreSQL and SQL Alchemy, I found the experience to be most useful and what I have learned really helped me with my Milestone Project.
+
+Also For providing the Python code validator to enable me to test and check my code for any errors.
+
+### Shipley college
+For providing the tuition and support to make the project possible
+
+### Nikki Hart
+For providing all the photography for this project
+
+### W3C
+A Massive THank you to W3C Schools for providing both the HTML and CSS validators to allow me to test my code.
+
+
