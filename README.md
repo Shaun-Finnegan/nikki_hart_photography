@@ -301,3 +301,9 @@ This was achieved by making the primary key of the photos model a foreign key to
 ![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/one-to-many.png)
 
 So this diagram shows that any customer within the customer model can have multiple connections with mutiple different photos within the photo model.
+
+
+## Wishlist
+* To add further products and offer customers more enticing deals
+* To incorperate a print on demand service that would allow customers to add a photo to clothing or home accessories
+* To add a calander function that would allow customers to hire Nikki for work such as gigs or weddings
