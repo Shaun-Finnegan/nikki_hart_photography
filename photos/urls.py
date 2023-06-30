@@ -20,5 +20,5 @@ from . import views
 urlpatterns = [
     path('', views.all_photos, name='photos'),
     path('<int:photos_id>/', views.photos_detail, name='photos_detail'),
-     path('add/', views.add_photo, name='add_photo'),
+    path('add/', views.add_photo, name='add_photo'),
 ]   
