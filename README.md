@@ -94,3 +94,13 @@ The user will need to do this if they wish to purchase any of Nikki's work.
 * [Forms Pages Tablet](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/forms-tab-wireframe.png)
 
 * [Forms Pages Laptop](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/forms-lg-wireframe.png)
+
+
+## Color Scheme
+The colour scheme I have choosen for this website is a simple as it gets. I wanted to keep the colour scheme simple so to keep the focus of the site on Nikki's work. I therefore choose two colors for the site. (Black and White) as I didn't want the users to have any distractions and by keeping the color scheme super simple it allows Nikki's work to be the sole focus of the website.
+
+
+## Structure
+The structure of the website is very straight forward. The purpose of this was to encourage the user to spend time on the products page looking through Nikki's portfolio of work and in doing so encouraging the user to make a purchase.
+
+## Feature
