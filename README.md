@@ -290,3 +290,10 @@ To test the performance and accessibility of the application I used Google Chrom
 
 #### Mobile
 ![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/mobile-lighthouse.png)
+
+## One To Many relational Database
+This project used a One to Many relational database.
+To achieve this I created two models within the project.
+The first one being a cutomer model and the second being a photo model.
+The relationship is designed to allow one customer to be able to purchase many different products.
+This was achieved by making the primary key of the photos model a foreign key to the customer model as outlined in the diagram below.
