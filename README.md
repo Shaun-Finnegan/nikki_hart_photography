@@ -235,3 +235,48 @@ As well as the application been tested on all the devices mentioned above, the a
 
 #### AllAuth Base template
 ![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/allauth-base-html-validator.png)
+
+
+### CSS
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/css-validator.png)
+
+
+### Python
+#### Settings.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/settings-py-validator.png)
+
+#### Urls.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/urls-py-validator.png)
+
+#### Profile-views.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/profiles-views-validator.png)
+
+#### profiles.url
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/profiles-url-validator.png)
+
+#### photos-views.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/photos-views-validator.png)
+
+#### photos-urls.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/photos-urls-validator.png)
+
+#### photos-models.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/photos-models-validator.png)
+
+#### home-views.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/home-views-validator.png)
+
+#### home-urls.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/home-urls-validator.png)
+
+#### checkout-views.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/checkout-views-validator.png)
+
+#### checkout-urls.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/checkout-urls-validator.png)
+
+#### bag-views.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/bag-views-validator.png)
+
+#### bag-urls.py
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/bag-urls-validator.png)
