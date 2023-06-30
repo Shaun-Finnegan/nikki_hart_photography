@@ -280,3 +280,13 @@ As well as the application been tested on all the devices mentioned above, the a
 
 #### bag-urls.py
 ![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/bag-urls-validator.png)
+
+
+### Performance and Accessibility Testing
+To test the performance and accessibility of the application I used Google Chrome Lighthouse. I must say that overall I am happy with the results on desktop but not on mobile devices.
+
+#### Desktop
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/desktop-lighthouse.png)
+
+#### Mobile
+![](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/mobile-lighthouse.png)
