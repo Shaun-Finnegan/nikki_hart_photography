@@ -104,3 +104,46 @@ The colour scheme I have choosen for this website is a simple as it gets. I want
 The structure of the website is very straight forward. The purpose of this was to encourage the user to spend time on the products page looking through Nikki's portfolio of work and in doing so encouraging the user to make a purchase.
 
 ## Feature
+
+### Logo Account and Basket
+The first feature is what the user is greated with when the enter the site, this is the logo and the account and basket. This was done so that as soon as the user enters the site they instantly know what the site is about and that they can create an account and make purchases.
+
+![Logo Account and Basket](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-title-account-basket.png)
+
+
+### Main Navigation
+As mentioned earlier this was kept as simple as possible to entice the user to spend the majority of their visit on the products page and thus lead to more purchases.
+
+![Main Navigation](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-responsive-nav.png)
+
+
+### Banner Image
+This is placed on the home page so that the user can instantly see an example of Nikki's work and this will hopefully get the users interest and encouagethem to explore the site further.
+
+![Banner Image](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-banner-image.png)
+
+
+### Responsive Footer
+This section allows the user to access Nikki's social links (No personal links have been shared) and her email if a particular user wishes to contact her about her photography.
+
+![Responsive Footer](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-responsive-footer.png)
+
+
+### Products Page
+
+This is the page that we want the user to spend most of their time on. It allows them to look at Nikki's Portfolio of work and hopefully click on one of the links to procede with making a purchase.
+
+![Products Page](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-products.png)
+
+
+### Product Details Page
+Once the user has clicked on one of the products they will presented with the product information page, which among other things allows them to select the quantity of the photo they like and also allows the user to add it to their bag.
+
+![Product Details Page](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-product-description.png)
+
+
+### The Shopping Bag
+Once the user has added a product to their bag they will be able to see a summary of this in their basket.
+The shopping bag gives the user full C.R.U.D functionality as they will be able to see what they have added. They will also be able to adjust the quantity or remove the item from the basket completley.
+
+![The Shopping Bag](https://github.com/Shaun-Finnegan/nikki_hart_photography/blob/main/readme-ms4-images/feature-shopping-bag.png)
