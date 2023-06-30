@@ -140,7 +140,7 @@
                             {% if item.photo.image %}
                                 <img class="w-100" src="{{ item.photos.image.url }}" alt="{{ photos.name }}">
                             {% else %}
-                                <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ photos.name }}">
+                                <img class="w-100" src="{{ item.photos.image.url }}" alt="{{ photos.name }}">
                             {% endif %}
                         </a>
                     </div>
@@ -253,7 +253,6 @@
       Copyright Nikki Hart 2023
       nikkisphotos@test.co.uk
     </div>
-  </div>
   </footer>
   </div>
 
@@ -266,4 +265,4 @@
   <script src="{% static 'checkout/js/stripe_elements.js' %}"></script>
   {% endblock %}
 </body>
-</html
+</html>
